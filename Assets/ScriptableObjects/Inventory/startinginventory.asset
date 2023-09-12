@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fac3900700f67da4da8f7e4754ddd50f, type: 3}
+  m_Name: startinginventory
+  m_EditorClassIdentifier: 
+  Gold: 100
+  Medicines:
+  - _item: {fileID: 11400000, guid: 8d8a3e4ad867a3a4199808692a57da41, type: 2}
+    _amount: 5
+  Pokeballs:
+  - _item: {fileID: 11400000, guid: 3f79026228651fb438c04ef4ee4d93c8, type: 2}
+    _amount: 5

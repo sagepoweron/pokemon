@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2ff7edc697acc438d7ad1303256780, type: 3}
+  m_Name: growl
+  m_EditorClassIdentifier: 
+  _name: Growl
+  _power: 0
+  _accuracy: 100
+  _maxpp: 8
+  _priority: 0
+  _elementtype: {fileID: 11400000, guid: ccd8266552f88f641b8d133a0b09d6ea, type: 2}
+  _category: 2
+  _usereffects: []
+  _targeteffects:
+  - {fileID: 11400000, guid: 294cb9b7f9786bf47ab6a2a8e344b88e, type: 2}
+  _audioclip: {fileID: 8300000, guid: 303500358301e5b41b3aad0583a61f98, type: 3}

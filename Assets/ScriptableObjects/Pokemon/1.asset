@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f4c0d331be914eb236b47e5a9b5a1, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  _name: Bulbasaur
+  _sprite: {fileID: 21300000, guid: 0528ee10a96aa484e901c252abc698dd, type: 3}
+  _backsprite: {fileID: 21300000, guid: 86dfb7d7f45702c4fb4e136064354c61, type: 3}
+  _maxhp: 45
+  _attack: 49
+  _defense: 49
+  _specialattack: 65
+  _specialdefense: 65
+  _speed: 45
+  _capturerate: 45
+  _type1: {fileID: 11400000, guid: d83dba751b85e9b49baa731e3f117274, type: 2}
+  _type2: {fileID: 0}
+  _allpossiblemoves:
+  - {fileID: 11400000, guid: 59682f8c322e8654fa68c92b36c9571a, type: 2}
+  - {fileID: 11400000, guid: ec3b1c56eae204e47bfdd43ba045543b, type: 2}
+  - {fileID: 11400000, guid: adfd45654f1a7714da41d31ed6588c99, type: 2}
+  _levelupmoves:
+  - _movedata: {fileID: 11400000, guid: ec3b1c56eae204e47bfdd43ba045543b, type: 2}
+    _level: 0
+  - _movedata: {fileID: 11400000, guid: adfd45654f1a7714da41d31ed6588c99, type: 2}
+    _level: 7
+  _cry: {fileID: 8300000, guid: a931d844782006a4e86cb00a1a0ceeb4, type: 3}

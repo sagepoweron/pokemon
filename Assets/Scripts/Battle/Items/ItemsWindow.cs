@@ -40,6 +40,8 @@ namespace Battle
                 ItemSlotElement itemslotelement = Instantiate(_itemslottemplate, _healpage.transform);
                 itemslotelement.Initialize(InventoryManager.Instance.MedicineInventory.Slots[i]);
                 itemslotelement.Submitted += OnItemSlotSubmitted;
+                itemslotelement.Selected += OnItemSlotFocused;
+                itemslotelement.Deselected += OnItemSlotUnfocused;
             }
 
             _healtab.onClick.AddListener(() =>
@@ -59,6 +61,8 @@ namespace Battle
                 ItemSlotElement itemslotelement = Instantiate(_itemslottemplate, _pokeballspage.transform);
                 itemslotelement.Initialize(InventoryManager.Instance.PokeballInventory.Slots[i]);
                 itemslotelement.Submitted += OnItemSlotSubmitted;
+                itemslotelement.Selected += OnItemSlotFocused;
+                itemslotelement.Deselected += OnItemSlotUnfocused;
             }
 
             void PokeballsTabClicked()
